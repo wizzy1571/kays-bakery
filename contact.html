@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Kay's Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kay's Bakery</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Get in Touch</h2>
+    <p>Want to place an order or ask a question? Fill out the form below or reach us directly.</p>
+
+    <form class="contact-form" action="https://formsubmit.co/wizzyprince09@gmail.com" method="POST">
+      
+      <input type="hidden" name="_next" value="thankyou.html">
+      <input type="text" name="_honey" style="display:none">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p>📞 Phone: ‪+234 812 345 6789‬</p>
+      <p>📧 Email: info@kaysbakery.ng</p>
+      <p>📍 Address: 123 Sweet Street, Lagos, Nigeria</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kay's Bakery. All rights reserved.</p>
+  </footer>
+</body>
+</html>
