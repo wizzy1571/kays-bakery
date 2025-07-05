@@ -23,10 +23,9 @@
     <h2>Get in Touch</h2>
     <p>Want to place an order or ask a question? Fill out the form below or reach us directly.</p>
 
-    <form class="contact-form" action="https://formsubmit.co/wizzyprince09@gmail.com" method="POST">
+    <form name="contact" method="POST"data-netlify="true" class="contact-form">
       
-      <input type="hidden" name="_next" value="thankyou.html">
-      <input type="text" name="_honey" style="display:none">
+      <input type="hidden" name="form-name" value="contact">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
       <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
