@@ -38,7 +38,7 @@ nav a {
   background-image: url('images/bakery.jpg');
   background-size: cover;
   background-position: center;
-  padding: 90px 20px;
+  padding: 80px 20px;
   text-align: center;
   color: white;
 }
@@ -217,8 +217,8 @@ main {
 
 /* Footer styling */
 footer {
-  background-color:  #d2691e;
+  background-color: #d2691e;;
   color: #fff;
   padding: 20px;
-  text-align: center;
+  text-align: center;
 }
