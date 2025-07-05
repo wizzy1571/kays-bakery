@@ -35,10 +35,10 @@ nav a {
 
 /* Hero section */
 .hero {
-  background-image: url('images/bakery-bg.jpg');
+  background-image: url('images/bakery.jpg');
   background-size: cover;
   background-position: center;
-  padding: 80px 20px;
+  padding: 90px 20px;
   text-align: center;
   color: white;
 }
@@ -195,4 +195,30 @@ footer {
     width: 100%;
     text-align: center;
   }
+}
+/* Stretch body to full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flex layout to push footer down */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main area takes up remaining space */
+main {
+  flex: 1;
+}
+
+/* Footer styling */
+footer {
+  background-color:  #d2691e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
